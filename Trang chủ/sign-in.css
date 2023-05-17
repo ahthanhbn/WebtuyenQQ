@@ -1,0 +1,14 @@
+.sign-in{
+    line-height: 63px;
+    
+}
+
+.sign-in__btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3f94d5;
+    color: #fff;
+    cursor: pointer;
+}

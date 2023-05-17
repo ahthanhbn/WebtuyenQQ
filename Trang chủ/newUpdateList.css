@@ -1,0 +1,94 @@
+.newUpdateList{
+    height: 2130px;
+    margin: 0px 160px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.newUpdateList__item{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newUpdateList__header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newUpdateList__header h1{
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: #56ccf2;
+    font-weight: 600 bold;
+    line-height: 50px;
+    cursor: pointer;
+
+}
+
+.newUpdateList__header__icon{
+    width: 40px;
+    height: 40px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    color: #f18121;
+    border: 1px solid #f18121;
+    border-radius: 32px;
+}
+
+.newUpdateList__item__box{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.newUpdateList__item__box__content{
+    width: 168px;
+    height: 225px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.newUpdateList__item__box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.newUpdateList__item__box__content__p{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newUpdateList__item__box__content__p1{
+   
+    font-weight: 700 bold;
+    line-height: 35px;  
+
+}
+
+.newUpdateList__item__box__content__p1:hover{
+    color: #f18121;
+} 
+
+.newUpdateList__item__box__content__p2{
+    font-weight: 600 "Semi",bold;
+    font-size: 12px;
+}
+
+.newUpdateList__item__box__content__p2:hover{
+    color: #f18121;
+    
+} 

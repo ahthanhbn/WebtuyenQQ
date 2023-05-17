@@ -1,0 +1,43 @@
+.ShowTruyen {
+    width: 1200px;
+    height: 380px;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+    
+    
+}
+
+.Showtruyen__img1,
+.Showtruyen__img3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.Showtruyen__img1 img,
+.Showtruyen__img3 img{
+    width: 300px;
+    height: 188px;
+    object-fit: cover;
+    
+}
+
+.Showtruyen__img2 {
+
+    width: 600px;
+    height: 100%;
+    margin: 0px 5px;
+    position: relative;
+}
+
+.Showtruyen__img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.Showtruyen__img1__1{
+    position: relative;
+}

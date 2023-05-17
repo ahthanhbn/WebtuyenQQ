@@ -1,0 +1,55 @@
+.EndTrangChu{
+    height: 165px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+    border-top: 5px solid #f18121;
+}
+
+.EndTrangChu__item1{
+    width: 160px;
+}
+.EndTrangChu__item1:hover{
+    cursor: pointer;
+}
+.EndTrangChu__item1 a{
+    text-decoration: none;
+    color: black;
+}
+.EndTrangChu__item1 a:hover{
+    cursor: pointer;
+    color: #f18121;
+}
+
+.EndTrangChu__item2{
+    width: 615px;
+    height: 100px;
+    background-color: #fff;
+
+    
+}
+.EndTrangChu__item2__p{
+    padding: 5px 10px
+}
+
+.EndTrangChu__item2__list{
+    display: flex;
+}
+
+.EndTrangChu__item2__list li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    background-color: #E6E6E6;
+    font-size: 13px;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.EndTrangChu__item2__list li:hover{
+    cursor: pointer;
+    color: #f18121;
+}

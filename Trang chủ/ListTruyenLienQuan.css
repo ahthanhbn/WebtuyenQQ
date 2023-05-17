@@ -1,0 +1,27 @@
+.ListTruyenLienQuan{
+    height: 55px;
+    background-color: #E6E6E6;
+}
+
+
+/* .ListTruyenLienQuan__List{
+    
+    
+} */
+
+.ListTruyenLienQuan__List__item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 140px;
+}
+
+.ListTruyenLienQuan__List__item li:hover{
+    color: #f18121;
+}
+
+.ListTruyenLienQuan__List__item li{
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+}

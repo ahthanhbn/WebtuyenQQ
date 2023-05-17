@@ -1,0 +1,21 @@
+.lamp{
+    color: #f18121;
+    border: 1px solid;
+    height: 44px;
+    border-radius: 150px;
+    width: 44px;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;   
+}
+.light--dark{
+    border: none;
+    background: none;
+    color: #f18121;
+    cursor: pointer;
+    font-size: 12px;
+}

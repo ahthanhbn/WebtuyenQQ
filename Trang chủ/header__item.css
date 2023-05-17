@@ -1,0 +1,7 @@
+.header__item{
+    box-sizing: border-box;
+    height: 63px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}

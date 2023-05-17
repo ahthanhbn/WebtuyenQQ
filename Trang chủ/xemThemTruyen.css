@@ -1,0 +1,17 @@
+.xemThemTruyen{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xemThemTruyen__btnXemThem{
+    width: 211px;
+    height: 44px;
+    background-color: #f18121;
+    border: 1px solid #f18121 ;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Quicksand,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+body{
+    background-color: #E6E6E6;
+    border: 0;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+header .header-top{
+    height: 64px;
+    background-color: #fff;
+    padding: 10px 0px;
+    display: flex;
+    
+}
+
+header .header-top .icon{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+header .header-top .icon .logo{
+    float: left;
+}
+
+header .header-top .icon .lamp{
+    width: 44px;
+    height: 44px;
+    border-radius: 150px;
+    color: #f18121;
+    border: 1px solid;
+    background-color: transparent;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    
+}
+
+.lamp .lamp-dark{
+    border: none;
+    background: none;
+    color: #f18121;
+    font-size: 20px;
+}
+
+.search-box{
+    width: 350px;
+    height: 44px;
+    margin-left: 10px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    float: left;
+
+    
+}
+
+.search-text{
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border: none;
+    background-color: #f9f9f9;
+    color: #757575;
+    outline: none;
+}
+.search-button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #f18121;
+    background-color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon{
+    font-size: 25px;
+    
+}
+
+.icon-right{
+    width: 100px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-notify{
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background-color:#fff;
+    border: none;
+    padding-top: 10px;
+    color: #bbb;
+}
+
+.notifications{
+    font-size: 25px;
+}
+.icon-avatar{
+    width: 44px;
+    height: 44px;
+    border-radius: 120px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+
+.avatar{
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #f18121;
+    margin: 0;
+}
+
+.header-bottom{
+    margin-left: 140px;  
+}
+
+.header-bottom ul{
+    margin: 0;
+    list-style: none;
+}
+
+.header-bottom ul li{
+    
+    line-height:50px;
+    float: left;
+    padding: 0 12px;
+}
+.header-bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.thongbao{
+    margin: 10px 160px;
+    border-left: 500px;
+    width: 1200px;
+    height: 100px;
+    border: 1px solid #2196f3;
+    border-left-width: 8px ;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px 10px;
+}
+
+.thongbao p{
+    margin: 5px;
+}
+.p1{
+    font-weight: 700 bold;
+    color: red;
+}
+.p2{
+    color: #31708f;
+}
+
+.p3{
+    text-decoration: none;
+    color: #f18121;
+    font-weight: 400 normal;
+}
+
+.body-main{
+    width: 1200px;
+    height: 782px;
+    margin: 15px 160px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+}
+
+.body-main .select-feature{
+    width: 290px;
+    height: 105.6px;
+    margin: 0;
+    padding: 10px 25px;
+    background-color: #f2f2f2;
+    list-style: none;
+    display: block;
+}
+
+.body-main .select-feature li{
+    width: 240px;
+    height: 43px;
+    padding: 11px 0px 11px 11px; 
+    border-bottom: 1px solid #eee;   
+}
+.body-main .select-feature li a{  
+    color: #757575;
+    text-decoration: none;  
+}
+
+.body-main .select-feature li .select-feature-icon{   
+    font-size: 17px;
+}
+
+.User-point{
+    padding: 20px;
+}
+
+.User-avatar{
+    width: 820px;
+    height: 210px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.User-avatar img{
+    width: 160px;
+    height: 160px;
+}
+
+.User-avatar button{
+    margin-top: 5px;
+    padding: 4px 10px;
+    color: #eee;
+    border: 1px solid #ff3860;
+    background-color: #ff3860;
+}
+
+.User-warring{
+    height: 38px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.thongtinlevel{
+    width: 820px;
+    height: 475px;
+    padding: 10px 20px;
+}
+
+.User-level{
+    width: 75%;
+    height: 43px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.level{
+    width: 100%;
+    height: 15px;
+    background-color: #e1e4e8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.kinhnhiem{
+    width: 83%;
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #ffd33d, #ea4aaa 17%, #b34bff 34%, #01feff 51%, #ffd33d 68%, #ea4aaa 85%, #b34bff);
+    background-size: 300% 100%;
+    -webkit-animation: progress-animation 2s linear infinite;
+    animation: progress-animation 2s linear infinite;
+    text-align: center;
+    line-height: 15px;
+}
+@keyframes progress-animation{
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+
+.canhgioi1{
+    float: left;
+}
+
+.canhgioi2{
+    float: right;
+}
+
+
+.thongtinlevel form p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.thongtinlevel form .txt{
+    padding: 5px 0;
+    font-size: 13px;
+}
+
+.thongtinlevel form input{
+    width: 100%;
+    height: 2.25rem;
+    padding: 5px 9px;
+    color: #363636;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.thongtinlevel form .thongtincanhan1 input{
+        font-weight: 600;
+}
+
+.thongtinlevel form .thongtincanhan2{
+    padding-top: 20px;
+}
+
+.thongtinlevel form .thongtincanhan2 input{
+    font-weight: 600;
+}
+
+.Gioitinh{
+    
+    padding-bottom: 5px;
+}
+
+
+.Gioitinh input[type = 'radio']{
+    width: 13px;
+    height: 13px;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+    font-size: 13px;
+}
+
+.Gioitinh label{
+    font-weight: 500;
+}
+
+.saveProfile{
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.saveProfile button{
+    background-color: #ff3860;
+    border-color: transparent;
+    color: #fff;
+}

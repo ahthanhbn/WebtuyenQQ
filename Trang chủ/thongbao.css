@@ -1,0 +1,37 @@
+.thongbao{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thongbao .thongbao__item{
+    width:1200px ;
+    height:  80px;
+    background-color:#ffff;
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+    border-left-width: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.item__item{
+    font-weight: 700 bold;
+    color: red;
+}
+.item__item2{
+    color: #31708f;
+}
+
+.item__item3{
+    text-decoration: none;
+    color: #f18121;
+    font-weight: 400 normal;
+
+}

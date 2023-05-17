@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>TruyenQQ.com</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="logo.css">
+        <link rel="stylesheet" href="lamp.css">
+        <link rel="stylesheet" href="search.css">
+        <link rel="stylesheet" href="header__item.css">
+        <link rel="stylesheet" href="sign-in.css">
+        <link rel="stylesheet" href="header__left">
+        <link rel="stylesheet" href="feature.css">
+        <link rel="stylesheet" href="thongbao.css">
+        <link rel="stylesheet" href="showtruyen.css">
+        <link rel="stylesheet" href="goodList.css">
+        <link rel="stylesheet" href="newUpdateList.css">
+        <link rel="stylesheet" href="xemThemTruyen.css">
+        <link rel="stylesheet" href="ListTruyenLienQuan.css">
+        <link rel="stylesheet" href="EndTrangChu.css">
+
+        <header>
+            <div class="header">
+                <div class="header__item">
+                    <!-- 1.1.LOGO -->
+                    <div class="Logo">
+                        <img src="\img\Logo.png" alt="TruyệnQQ">
+                    </div>
+                    <!-- 1.2.Lamp -->
+                    <div class="lamp">
+                        <button class="light--dark">
+                            <ion-icon style="font-size: 20px" name="bulb-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <!-- 1.3.Search -->
+                    <form action="" class="search-box">
+                        <input type="text" class="search-text" placeholder="Bạn muốn tìm truyện gì?">
+                        <button class="search-button">
+                            <ion-icon style=" font-size: 25px" name="search"></ion-icon>
+                        </button>
+                    </form>
+                </div>   
+                <!-- 1.4.Đăng nhập/Đăng ký -->
+                <div class="sign-in">
+                    <button class="sign-in__btn">Đăng Nhập</button>
+                    <button class="sign-in__btn">Đăng Ký</button>
+                </div>
+            </div>
+        </header>
+
+        <Style>
+            .btn1{
+                position: relative;
+                
+            }
+
+            .btn1__hiddenBox{
+                position: absolute;
+                width: 1900px;
+                height: 300px;
+                transform: scale(0);
+                background-color:#fff;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                position: fixed;
+                left: 0;
+                
+                z-index: 9;
+            }
+
+            .btn1__hiddenBox::after{
+                position: absolute;
+                background-color: #eaeaea;
+            }
+
+            .btn1:hover .btn1__hiddenBox{
+                transform: scale(1);
+            }
+
+            .option {
+                white-space: nowrap;
+                width: 200px;
+                height: 50px;
+                padding: 0px 50px;
+                cursor: pointer;
+                
+                
+            }
+
+            .option:hover{
+                 background-color: #dcdcdc;
+            }
+        </Style>
+        <nav>
+            <!-- 2.Feature -->
+            <div class="Feature">
+                <ul>
+                        <li><a href="#">Trang Chủ</a></li>
+                        <li class="btn1">
+                            <a href="#">Thể Loại</a>
+                            <ion-icon class="icon-tl" name="caret-down-outline"></ion-icon>
+                            <div class="btn1__hiddenBox">
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div></div>
+                                <class></class>
+                                
+                            </div>
+                        </li>
+                        <li class="btn1">
+                            <a href="#">Xếp Hạng</a>
+                            <ion-icon class="icon-tl" name="caret-down-outline"></ion-icon>
+                            <div class="btn1__hiddenBox">
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                                <div class="option">ActionAd</div>
+                                <div class="option">Adventure</div>
+                                <div class="option">Anime</div>
+                                <div class="option">Khuyến mãi 101%</div>
+                        </li>
+                        <li><a href="#">Con Gái</a></li>
+                        <li><a href="#">Con Trai</a></li>
+                        <li><a href="#">Tìm Truyện</a></li>
+                        <li><a href="#">Lịch Sử</a></li>
+                        <li><a href="#">Theo Dõi</a></li>
+                        <li><a href="#">Tải App</a></li>
+                        <li><a href="#">Thảo Luận</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 3.Thông báo -->
+        <div class="thongbao">
+            <div class="thongbao__item">
+                <p class="item__item">Website đang bị tấn công nên có thể bị gián đoạn trong 1-2 phút mong các bạn thông cảm.</p>
+                <p class="item__item2">Bấm vào link này để lấy lại danh sách theo dõi và lịch sử đọc truyện <a class="item__item3" href="">tại đây .</a></p>
+                <p class="item__item2">Nếu web/ảnh load chậm, <a href="" class="item__item3">TẢI NGAY ứng dụng VPN (1.1.1.1) tại đây</a> để cải thiện tốc độ.</p>
+            </div>
+        </div>
+
+        <!-- 4. Danh sách -->
+        <div class="ShowTruyen">
+            <div class="Showtruyen__img1">
+                <div class="Showtruyen__img1__1">
+                    <img src="\img\slider_1559211185.jpg" alt="">
+                    <div class="tinhnang">
+                        <span class="time-ago">4 giờ trước</span>
+                        
+                    </div>
+                </div>
+                <div class="Showtruyen__img1__1">
+                    <img src="\img\slider_1559213484.jpg" alt="">
+                    <div class="tinhnang">
+                        <span class="time-ago">4 giờ trước</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class= "Showtruyen__img2">
+                <img class="Showtruyen__img1__1" src="\img\slider_1559213537.jpg" alt="">
+                <div class="tinhnang">
+                    <span class="time-ago">4 giờ trước</span>
+                    
+                </div>
+            </div>
+
+            <div class= "Showtruyen__img3">
+                <div class="Showtruyen__img1__1">
+                    <img src="\img\slider_1561609693.jpg" alt="">
+                    <div class="tinhnang">
+                        <span class="time-ago">4 giờ trước</span>
+                        
+                    </div>
+                </div>
+                <div class="Showtruyen__img1__1">
+                    <img src="\img\slider_1587986979.jpg" alt="">
+                    <div class="tinhnang">
+                        <span class="time-ago">4 giờ trước</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Danh sách truyện hay  -->
+        <div class="goodList">
+            <h1><ion-icon style="font-size:20px ;" name="star"></ion-icon>  Truyện  hay</h1>
+            <div class="goodList__item">
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1">Fairy Tail</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1">Liên quân</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1">Titan</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1">Fairy Tail</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="goodList__item__box">
+                    <div class="goodList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="goodList__item__box__content__p">
+                        <p class="goodList__item__box__content__p1" >One Piece</p>
+                        <p class="goodList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Truyện mới cập nhật -->
+        <div class="newUpdateList">
+            <div class="newUpdateList__header">
+                <h1><ion-icon style="font-size:20px" name="cloud-upload"></ion-icon>  Truyện mới cập nhật</h1>
+                <div class="newUpdateList__header__icon">
+                    <ion-icon name="funnel"></ion-icon>
+                </div>
+            </div>
+            <!-- List1 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List2 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List3 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List4 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List5 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List6 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div>
+            <!-- List7 -->
+            <div class="newUpdateList__item">
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1587986979.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Liên quân</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213537.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Quân đoàn diệt quỷ</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559213484.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Titan</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1561609693.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1">Fairy Tail</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+                <div class="newUpdateList__item__box">
+                    <div class="newUpdateList__item__box__content">
+                        <img src="\img\slider_1559211185.jpg" alt="">
+                        <div class="tinhnang">
+                            <span class="time-ago">4 giờ trước</span>
+                            <span class="tinh-nang hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="newUpdateList__item__box__content__p">
+                        <p class="newUpdateList__item__box__content__p1" >One Piece</p>
+                        <p class="newUpdateList__item__box__content__p2">Chap 124</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- xem thêm truyện mới -->
+        <div class="xemThemTruyen">
+            <button class="xemThemTruyen__btnXemThem"> Xem thêm nhiều truyện </button>
+        </div>
+
+        <!-- List truyện tìm kiếm -->
+        <nav class="ListTruyenLienQuan">
+            <div class="ListTruyenLienQuan__List">
+                <ul class="ListTruyenLienQuan__List__item">
+                    <li>Truyện Tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh hay</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                    <li>Truyen tranh</li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- End Trang Chủ  -->
+        <div class="EndTrangChu">
+            <div class="EndTrangChu__item1">
+                <img src="\img\Logo.png" alt="">
+                <img src="https://static2.vieon.vn/production-vieon-web-v5/assets/img/google_play.svg" alt="">
+                <a href="">Liên hệ bản quyền</a>
+
+            </div>
+            <nav class="EndTrangChu__item2">
+                <div>
+                    <ul class="EndTrangChu__item2__list">
+                        <li>Chuyển Sinh</li>
+                        <li>Romance</li>
+                        <li>Ngôn tình</li>
+                        <li>Fantasy</li>
+                        <li>Xuyên Không</li>
+                    </ul>
+                </div>
+                <div class="EndTrangChu__item2__p">
+                    <p style="font-size:13px; font-weight: 400 bold">Mọi thông tin và hình ảnh trên website đều được sưu tầm trên Internet. 
+                        Chúng tôi không sở hữu hay chịu trách nhiệm bất kỳ thông tin nào trên web này. 
+                        Nếu làm ảnh hưởng đến cá nhân hay tổ chức nào, khi được yêu cầu, chúng tôi sẽ xem xét và gỡ bỏ ngay lập tức.</p>
+                </div>
+            </nav>
+        </div>
+        <!-- Thẻ để dùng ion-icon -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+
+
+
